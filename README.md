@@ -12,7 +12,7 @@ docker run -d --restart=always \
      -p 8096:8096 \
      -p 8920:8920 \
      --name <CONTAINER_NAME> \
-     emby/embyserver:latest
+     emby/embyserver:3.6.0.56
 ~~~
 
 For example,
@@ -28,5 +28,7 @@ docker run -d --restart=always \
      -p 8096:8096 \
      -p 8920:8920 \
      --name emby-cuda-server \
-     emby/embyserver:latest
+     emby/embyserver:3.6.0.56
 ~~~
+
+emby 3.6.0.56 seems to be the latest version which supports nvenc without premiere account
